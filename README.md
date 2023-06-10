@@ -1,4 +1,4 @@
-# Wedding Invitation Mobile - Deffan & Astin
+# Wedding Invitation Mobile - Candra & Andhini
 
 # Section/Feature
 
@@ -7,5 +7,5 @@
 - Time and Place Info
 - Add to Calendar Button (Google Calendar)
 - Map Direction Button (Google Map)
-- Send Message Button (Whatssapp API)
+- Direct to Instagram Button
 - Music Play in Background
