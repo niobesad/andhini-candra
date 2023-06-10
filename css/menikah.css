@@ -47,6 +47,7 @@ html {
   min-height: 100%;
   background-position: center;
   color: white;
+  
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Raleway', sans-serif;
 }
@@ -55,7 +56,7 @@ html {
   font-family: 'Rouge Script', sans-serif;
   font-weight: 700;
   transform: rotate(-2deg);
-  font-size: 2rem;
+  font-size: 5rem;
   padding-bottom: 5px;
   color: whitesmoke;
 }
@@ -63,13 +64,13 @@ html {
 .hero .subtitle {
   padding: 35px;
   color: whitesmoke;
-  padding-top: 75%;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .hero .tempatwaktu {
   padding-top: 35px;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  
 }
 
 .hero .hero-foot {
@@ -92,7 +93,7 @@ html {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
   font-weight: 600;
-  text-transform: 0;
+  text-transform: ;
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -104,16 +105,16 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #996e6d;
+  border-bottom: 2px solid #996E6D;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #996e6d;
+  color: #996E6D;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #996e6d;
-  transition: all 0.2s ease-in-out;
+  color: #996E6D;
+  transition: all .2s ease-in-out;
   border-bottom: 2px solid #c28285;
 }
 
