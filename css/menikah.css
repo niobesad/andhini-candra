@@ -117,6 +117,38 @@ html {
   border-bottom: 2px solid #c28285;
 }
 
+.comment-container {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+.comment .name {
+  font-weight: bold;
+}
+
+.comment .message {
+  margin-top: 5px;
+}
+
+.comment .attendance {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.comment .check-icon {
+  color: green;
+}
+
+.comment .cross-icon {
+  color: red;
+}
+
 .space40px {
   height: 40px;
 }
