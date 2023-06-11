@@ -826,6 +826,7 @@ body.preloader-site {
   align-self: center;
   border-radius: 50%;
   box-shadow: 2px 2px 8px #bc8887;
+  z-index: 150;
 }
 
 .playpause-chk-icon {
