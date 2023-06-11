@@ -20,7 +20,7 @@ if (urlParams.get('to') != null) {
 
 document.addEventListener("DOMContentLoaded", function () {
   //open welcome modal
-  welcomeModal.style.display = 'block'
+  welcomeModal.style.display = 'none'
   // if (urlParams.get('to') != null) {
   // }
 
