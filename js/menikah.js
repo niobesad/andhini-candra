@@ -100,19 +100,3 @@ function closeWelcomeModal() {
   welcomeModal.style.display = 'none'
   myAudio.play()
 }
-
-function copyToClipboard(element) {
-  var value = element.innerText
-  var popup1 = document.getElementById("popupCopy1")
-  var popup2 = document.getElementById("popupCopy2")
-  element.id == 'ananda' ? popup1.classList.toggle("show") :
-    popup2.classList.toggle("show")
-
-  navigator.clipboard.writeText(value)
-    .then(() => {
-      console.log("Text copied to clipboard...")
-    })
-    .catch(err => {
-      console.log('Something went wrong', err);
-    })
-}
