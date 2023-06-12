@@ -97,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Prepare the response data
     $response = array(
         'status' => 'success',
-        'message' => 'Data saved successfully!',
+        'message' => 'Ucapan berhasil dikirim!',
         'entry' => array(
             'name' => $name,
             'attendance' => $attendance,
@@ -152,10 +152,10 @@ foreach ($data as $id => $entry) {
     <div id="message-container"></div>
     <form id="save-form">
       <div class="form-group">
-        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Nama" required>
       </div>
       <div class="form-group">
-        <textarea class="form-control" id="message" name="message" placeholder="Message" required></textarea>
+        <textarea class="form-control" id="message" name="message" placeholder="Tulis Ucapan & Doa" required></textarea>
       </div>
       <div class="form-group">
         <select class="form-control" id="attendance" name="attendance" required>
@@ -164,11 +164,11 @@ foreach ($data as $id => $entry) {
           <option value="Tidak Hadir">Tidak Hadir</option>
         </select>
       </div>
-      <button type="submit" class="btn btn-primary">Save</button>
+      <button type="submit" class="btn-odd">Kirim</button>
     </form>
-    <div class="column is-12 prolog">
-        <h2 class="title text-center section-title">Ucapan</h2>
-    </div>
+    <!-- <div class="column is-12 prolog">
+        <h5 class="has-text-centered title-odd">Ucapan</h5>
+    </div> -->
     <div id="data-container">
         <?= $commentHTML ?>
     </div>
@@ -291,7 +291,7 @@ foreach ($data as $id => $entry) {
                 },
                 error: function() {
                     // Show error message
-                    var messageHtml = '<div class="alert alert-danger" role="alert">Failed to save data. Please try again.</div>';
+                    var messageHtml = '<div class="alert alert-danger" role="alert">Gagal mengirim ucapan, mohon coba lagi.</div>';
                     $('#message-container').html(messageHtml);
                 }
             });

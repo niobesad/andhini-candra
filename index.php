@@ -203,14 +203,14 @@
             <img src="./image/galeri/andhini.jpg" width="100px" height="100px" style="border-radius: 11px;" >
             <div style="text-align: left;" >
               <h1 class="nama-andhini">Andhini Budiati</h1>
-              <h1 style="font-size: x-small; margin-left: 20px;">Putri dari Bapak Alm. Damris Intan & Ibu Runawati Rustam</h1>
+              <h1 style="font-size: small; margin-left: 20px;">Putri dari Bapak Alm. Damris Intan & Ibu Rusnawati Rustam</h1>
             </div>
           </div>
           <div class="ampersand">&</div>
           <div style="display: flex; flex-direction: row; justify-content: flex-end;">
             <div style="text-align: right;" >
               <h1 class="nama-candra">Candra</h1>
-              <h1 style="font-size: x-small; margin-right: 20px;">Putra dari Bapak Hendra Fia & Ibu Saiti</h1>
+              <h1 style="font-size: small; margin-right: 20px;">Putra dari Bapak Hendra Fia & Ibu Saiti</h1>
             </div>
             <img src="./image/galeri/candra.jpg" width="100px" height="100px" style="border-radius: 11px;" >
           </div>
@@ -384,15 +384,14 @@
   <input type="checkbox" class="playpause-chk-icon"  id="chkbx2" onchange="toggleAudio(this)">
   <label for="chkbx2"></label>
 </div>
-<div class="container">
-  <div class="column is-12 prolog">
-    <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Tinggalkan Ucapan</h1>
-  </div>
-  <?php
-    include 'rspv.php';
-  ?>
-  <h1 class="subtitle"></br></h1>
+<div class="column is-12 prolog">
+  <h1 class="has-text-centered title-odd" data-aos="fade-up" data-aos-easing="linear">Tinggalkan Ucapan</h1>
+  <p class='bodytext' style='text-align: center;'>Mohon tinggalkan ucapan untuk pengantin perempuan dan pengantin laki-laki, dan juga doa terbaik untuk pernikahan kami.</p>
 </div>
+<?php
+  include 'rspv.php';
+?>
+<h1 class="subtitle"></br></h1>
 
 <!-- End RSVP Content -->
     </div>
@@ -404,12 +403,12 @@
         <a href="#" class="has-vertically-align">
           <p class="has-vertically-align">2023 &copy Candra</p>
         </a>
-        <a href="https://bulma.io" class="has-vertically-align">
+        <!-- <a href="https://bulma.io" class="has-vertically-align">
           <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
-        </a>
-        <a href="https://www.netlify.com">
+        </a> -->
+        <!-- <a href="https://www.netlify.com">
           <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify"/>
-        </a>
+        </a> -->
       </div>
     </div>
     <!-- End Footer -->
@@ -420,9 +419,9 @@
           <h1 class="subtitle"></br></br></h1>
           <h1 class="subtitle">The Wedding of</br></h1>
           <h2 class="title">Candra & Andhini</h2>
-          <h1 id="yth" style="font-size: small;">Yth. kepada Bapak/Ibu/Saudara/i</h1>
-          <h1 id="to" style="font-weight: bold; font-size: medium;"></h1>
-          <h1 id="invite" style="font-size: x-small; padding-left: 20px; padding-right: 20px;">Tanpa mengurangi rasa hormat, Kami turut mengundang Anda untuk hadir pada acara pernikahan Kami.</h1>
+          <h1 id="yth" style="font-size: medium;">Yth. kepada Bapak/Ibu/Saudara/i</h1>
+          <h1 id="to" style="font-weight: bold; font-size: large;"></h1>
+          <h1 id="invite" style="font-size: small; padding-left: 20px; padding-right: 20px;">Tanpa mengurangi rasa hormat, Kami turut mengundang Anda untuk hadir pada acara pernikahan Kami.</h1>
           <button style="margin-top: 10%; padding: 8px; background-color: #bf7877; border: 0ch; border-radius: 5px; color: white;" onclick="closeWelcomeModal()"><i class="far fa-envelope-open"></i> Buka Undangan</button>
         </div>
       </div>

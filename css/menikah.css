@@ -124,7 +124,7 @@ html {
 .comment {
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
   border: 1px solid #ddd;
 }
 
@@ -134,19 +134,27 @@ html {
 
 .comment .message {
   margin-top: 5px;
+  font-size: 1.25rem;
+}
+
+.comment .time {
+  font-size: 0.75rem;
 }
 
 .comment .attendance {
   display: inline-block;
   margin-left: 10px;
+  font-size: 0.75rem;
 }
 
 .comment .check-icon {
   color: green;
+  margin-right: 5px;
 }
 
 .comment .cross-icon {
   color: red;
+  margin-right: 5px;
 }
 
 .space40px {
@@ -337,10 +345,37 @@ html {
   padding-bottom: 30px;
 }
 
+.title-odd {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #996e6d;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  padding-top: 30px;
+}
+
+.btn-odd{
+  width: 75px;
+  height: 40px;
+  background-color: #996e6d;
+  border: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
 .nama-andhini {
   font-family: 'Cookie', sans-serif;
   color: #996e6d;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding-left: 20px;
   text-align: left;
   line-height: normal;
@@ -349,7 +384,7 @@ html {
 .nama-candra {
   font-family: 'Cookie', sans-serif;
   color: #996e6d;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding-right: 20px;
   text-align: right;
   line-height: normal;
@@ -376,12 +411,12 @@ html {
 }
 
 .waktu {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
 }
 
 .tanggal-angka {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Raleway', sans-serif;
   color: #996e6d;
   font-weight: 900;
@@ -655,9 +690,9 @@ body.preloader-site {
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes fade {
