@@ -66,11 +66,22 @@ window.onscroll = function () {
   scrollFunction();
 };
 
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     document.getElementById("toTop").style.display = "block";
+//   } else {
+//     document.getElementById("toTop").style.display = "none";
+//   }
+// }
+
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("toTop").style.display = "block";
-  } else {
-    document.getElementById("toTop").style.display = "none";
+  var toTopElement = document.getElementById("toTop");
+  if (toTopElement) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      toTopElement.style.display = "block";
+    } else {
+      toTopElement.style.display = "none";
+    }
   }
 }
 
@@ -79,7 +90,7 @@ $(document).ready(function ($) {
   $(".preloader-wrapper").fadeOut();
   $("body").removeClass("preloader-site");
 });
-$(window).load(function () {
+$(window).on('load', function() {
   var Body = $("body");
   Body.addClass("preloader-site");
 });
