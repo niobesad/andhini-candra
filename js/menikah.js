@@ -14,8 +14,9 @@ const urlParams = new URLSearchParams(queryString)
 if (urlParams.get('to') != null) {
   toLabel.innerHTML = urlParams.get('to')
 } else {
-  ythLabel.innerHTML = ""
-  inviteLabel.innerHTML = ""
+  // ythLabel.innerHTML = ""
+  // inviteLabel.innerHTML = ""
+  toLabel.innerHTML = "Kalian Semua"
 }
 
 document.addEventListener("DOMContentLoaded", function () {

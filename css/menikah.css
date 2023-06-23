@@ -118,7 +118,7 @@ html {
 }
 
 .comment-container {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .comment {
@@ -684,7 +684,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 10%;
+  height: 100%;
   border-radius: 11px;
 }
 
@@ -726,83 +726,83 @@ body.preloader-site {
 .foto1 {
   /* background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url('../image/prewed-1.jpg'); */
   background-image: url('../image/galeri/1.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto2 {
   background-image: url('../image/galeri/2.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto3 {
   background-image: url('../image/galeri/3.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto4 {
   background-image: url('../image/galeri/4.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto5 {
   background-image: url('../image/galeri/5.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto6 {
   background-image: url('../image/galeri/6.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto7 {
   background-image: url('../image/galeri/7.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto8 {
   background-image: url('../image/galeri/8.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .foto9 {
   background-image: url('../image/galeri/9.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
-  min-height: 18rem;
+  min-height: 30rem;
 }
 
 .title-foto {

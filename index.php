@@ -10,6 +10,7 @@
     <meta property="og:title" content="Undangan Pernikahan Candra & Andhini - Minggu, 09 Juli 2023">
     <meta property="og:description" content="Undangan Pernikahan Candra & Andhini - Minggu, 09 Juli 2023 di Masjid Nurani Kranji, Jl. I Gusti Ngurah Rai No.RT.1, Kranji, Bekasi Bar., Kota Bekasi">
     <meta property="og:locale" content="id_ID" />
+    <meta property="og:image" content="https://andhinb.niobesad.com/image/galeri/12.jpg">
     <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='627' />
     <meta property="og:url" content="https://andhinb.niobesad.com">
@@ -44,11 +45,11 @@
 
   <body>
     <!-- Begin Preloader -->
-    <!-- <div class="preloader-wrapper">
+    <div class="preloader-wrapper">
       <div class="preloader">
         <img src="image/favicon.png" alt="Flower" />
       </div>
-    </div> -->
+    </div>
     <!-- End Preloader-->
     <!-- Begin Header -->
     <div class="header-wrapper" id="home">
@@ -172,8 +173,11 @@
     <section class="section-dark" style="padding-bottom: 0%;">
       <!--<img src="./image/galeri/11.jpg" style="margin-bottom: 5%;" data-aos="fade-up" data-aos-easing="linear" >-->
       <div data-aos="fade-up" data-aos-easing="linear" class="has-text-centered has-vertically-aligned-content">
-        <img src="./image/galeri/11.jpg" style="margin-bottom: 5%;">
-        <h1 style="margin-bottom: 20px; font-size: 0.8rem;">
+        <!-- <img src="./image/galeri/11.jpg" style="margin-bottom: 5%; max-width: 50%; max-height: 50%;"> -->
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <img src="./image/galeri/11.jpg" style="width: 400px; height: 720spx;">
+        </div>
+        <h1 style="margin-bottom: 20px; margin-top: 10px; font-size: 0.8rem;">
           “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.“
         </h1>
         <strong style="font-size: 0.8rem;">( QS. Ar-Rum ayat 21 )</strong>
@@ -244,14 +248,14 @@
               <p class="waktu is-larger has-text-centered">
                 Akad Nikah:
                 <br>
-                <strong>08.00 WIB</strong>
+                <strong>07.30 WIB - Selesai</strong>
               </p>
             </div>
             <div class="column is-4 has-vertically-aligned-content">
               <h1 class="waktu is-larger has-text-centered">
                 Resepsi:
                 <br>
-                <strong>11.00  - 13.15 WIB</strong>
+                <strong>11.00 - 13.15 WIB</strong>
               </h1>
             </div>
           </div>
