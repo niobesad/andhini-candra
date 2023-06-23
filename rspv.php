@@ -88,7 +88,7 @@ $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
             </div>
         </form>
         <div class="has-text-centered" id="send-button">
-                <button type="submit" class="btn-odd"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Kirim</button>
+                <button type="submit" class="btn-odd" form="save-form"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Kirim</button>
         </div>
         <div id="data-container">
         <?php
